@@ -1,0 +1,111 @@
+html {
+  scroll-behavior: smooth;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0 8%;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	overflow: hidden;
+	background-color: saddlebrown;
+}
+
+nav ul li {
+	margin-left:  6%;
+	margin-right: 6%;
+	font-size: 28px;
+	display: inline;
+	font-style: bold;
+	float: left;
+}
+
+nav ul li a {
+	display: block;
+	color: bisque;
+	text-align: center;
+	padding: 35px 30px;
+	text-decoration: none;
+	border-left: 3px solid black;
+	
+}
+
+nav ul li a:hover{
+	background-color: #567;
+}
+
+.content {
+	padding: 16px
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.sticky + .content {
+	padding-top: 60px;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+}
+
+body{
+	margin: 0;
+    display: block;
+	font-family: "Rockwell",sans-serif;
+	
+}
+
+main{
+	background-image: url('../images/wd_back.png');
+	/*background-color: #422b21;*/
+	
+}
+
+section {
+  padding: 2rem;
+  margin: 0 0 2rem 0;
+}
+
+#intro {
+	background-color: saddlebrown;
+	color: bisque;
+	font-style: italic;
+	font-size: 20px;
+	margin-left: 10%;
+	margin-right: 10%;
+	border-style: ridge
+}
+
+.section_titles{
+	text-align: center;
+	font-size: 28px;
+	background-color: saddlebrown;
+	color: bisque;
+	
+}
+.rcorners1 {
+    border-radius: 25px;
+    background: saddlebrown;
+    padding: 20px; 
+    width: 70%;
+    height: 150px; 
+}
+
+#roucorners1 {
+	font-size: 20x;
+    border-radius: 25px;
+    background: saddlebrown;
+    padding: 10px; 
+	color:antiquewhite;
+    width: 70%;
+    height: 30px; 
+}
+
+
