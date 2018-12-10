@@ -6,10 +6,14 @@
 	<meta name="keywords" content="food cafe donuts coffee confectionaries breakfast">
 	<meta name="author" content="Peter McCusker">
 	<title>Donut Delights</title>
+	<link rel="shortcut icon" href="images/favicon.ico">
 	<link rel="stylesheet" href="css/styles.css">
-	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-	<script type="text/javascript" src="js/jquery.scrollTo.min.js"></script>
-	<script type="text/javascript" src="js/nav.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="css/slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="css/slick/slick-theme.css">
+	
+	
+	
 </head>
 <body>
 <header>
@@ -18,7 +22,7 @@
 				<li><a href="#top"><strong>Home</strong></a></li>					
 				<li><a href="#menu"><strong>Menu</strong></a></li>
 				<li><a href="#about"><strong>About Us</strong> </a></li>
-				<li><a href="#contact"><strong>Contact Us </strong></a></li>		
+				<li ><a id="#rightbord" href="#rContact"><strong>Contact Us </strong></a></li>		
 			</ul>
 		</nav>
 		
@@ -26,97 +30,227 @@
 
 	
 	<main>
-		<section id="#top" class="content">
-			<img src="images/strefrontcropped.png" alt="Storefront">
-			<img src="images/donutDelightsLogo.png" alt="Donut Delights Logo">
-			<h1 class="rcorners1 rcorners2 rcorners3">The finest in breakfast treats and coffees since 1971</h1>
-				<div id="intro" class="rcorners1 rcorners2 rcorners3"><p>Donut Delights has been serving C-U with the highest quality donuts and cofees since 1971. 
+		<section id="top">
+			<div id="topRight">
+			<a href="https://www.facebook.com/"><img id="facebook" src="images/facebook_small.png" alt="Facebook Icon"></a>
+			<a href="https://www.instagram.com/?hl=en"><img id="instagram" src="images/instagram.png" alt="Instagram Icon"></a>
+			<a href="https://twitter.com/?lang=en"><img id="twitter" src="images/twitter.png" alt="Twitter Icon"></a>
+			</div>
+			<img id="small_img_left" src="images/storefrontcropped.png" alt="Storefront">
+			<img id="small_img_right" src="images/donutDelightsLogo_cropped.png" alt="Donut Delights Logo">
+
+			<h1 id="roucorners1">The finest in breakfast treats and coffees since 1971</h1>
+				<div id="intro" class="rcorners1"><p>Donut Delights has been serving C-U with the highest quality donuts and cofees since 1971. 
 					Nestled in downtown Urbana, Donut Delights had become a haven for "Gotta have it" breakfast treats.  Our donuts are baked fresh twice daily and our coffee's brewed every fifteen minutes.  
 					If you have never been to C-U's hidden gem, you are missing out.</p></div>
 		</section>
-		<img src="images/vetsAdSmall.gif" alt="Veterans eat free">
-		<h1>Insert Video and vet gif</h1>
-		<section id="#menu" class="content section_titles rcorners1 rcorners2 rcorners3"><h1>Menu</h1>
-			<h2>image collage</h2>
+
+		<iframe id="vid" width="1020" height="615" src="https://www.youtube.com/embed/aWMjUQFEGd0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		
+		
+		
+
+		
+			<h1 id="menu">Menu</h1>
+			<div class="multiple-items">
+				<div><img src="images/bullsHorn_small.jpg" alt="Bull Horns" /></div>
+				<div><img src="images/IMG_2822_v2_small.jpg" alt="4 Donuts" /></div>
+				<div><img src="images/pinwheels_small.jpg" alt="Pin wheels" /></div>
+				<div><img src="images/file7001293943757_small.jpg" alt="Jelly Donuts" /></div>
+				<div><img src="images/donutsInCase_small.jpg" alt="Donuts on Display" /></div>
+				<div><img src="images/coffee_and_chokolate_small.JPG" alt="Coffee and Chocolate" /></div>
+				<div><img src="images/donut-+-hot-coffee_small.jpg" alt="Donut and Coffee" /></div>
+			</div>
+			
+			<section id="menu_Content" class="content">
+			<div id="top_Sellers">
 			<h2>Top Sellers</h2>
 				<ul>
-					<li>Pistachio Pinwheels</li>
-					<li>Boston Cream Delights</li>
-					<li>Chocolate Confetti</li>
-					<li>Marshmallow Mayhems</li>
-					<li>French Twists</li>
-					<li>Bulls Horns</li>
+					<li class="no_bullets">Pistachio Pinwheels</li>
+					<li class="no_bullets">Boston Cream Delights</li>
+					<li class="no_bullets">Chocolate Confetti</li>
+					<li class="no_bullets">Marshmallow Mayhems</li>
+					<li class="no_bullets">French Twists</li>
+					<li class="no_bullets">Bulls Horns</li>
 				</ul>
-			<h2>Donuts</h2>
-			<h3>Regular</h3>
-				<ul>
-					<li>Plain</li>
-					<li>Glazed</li>
-					<li>Chocolate Glazed</li>
-					<li>Chocolate Frosted</li>
-					<li>Vanilla Frosted</li>
-					<li>Jelly Filled</li>
-					<li>Jelly Puff</li>
-					<li>Cream Puff</li>
-					<li>Cream Filled</li>
-					<li>Boston Cream</li>
-					<li>Marble Twist</li>
-					<li>Sugar Raised</li>
-					<li>Plain Cruller</li>
-					<li>Honey Wheat</li>
-					<li>Coffee Roll</li>
+			</div>
+			<img id="gif" src="images/vetsAdSmall.gif" alt="Veterans eat free">
+			<h2 id="top_border" class="sub_section">Donuts</h2>
+			
+			
+			
+				
+				<h3 class="menu_Stuff">Regular</h3>
+				<div id="reg_Menu">
+				<span>
+				<ul class="no_bul">
+					<li class="spread_out">Plain</li>
+					<li class="spread_out">Glazed</li>
+					<li class="spread_out">Chocolate Glazed</li>
+					<li class="spread_out">Chocolate Frosted</li>
+					<li class="spread_out">Vanilla Frosted</li>
+					<li class="spread_out">Jelly Filled</li>
+					<li class="spread_out">Jelly Puff</li>
+					<li class="spread_out">Cream Puff</li>
 				</ul>
-				<p>(1) $1.05/ (13) $8.65</p>
-			<h3>Fancy</h3>
-				<ul>
-					<li>Bow Tie</li>
-					<li>Eclair</li>
-					<li>Apple Turnover</li>
-					<li>Fancy Coffee Roll</li>
-					<li>French Cruller</li>
+				
+				<ul class="no_bul">
+					<li class="spread_out">Cream Filled</li>
+					<li class="spread_out">Boston Cream</li>
+					<li class="spread_out">Marble Twist</li>
+					<li class="spread_out">Sugar Raised</li>
+					<li class="spread_out">Plain Cruller</li>
+					<li class="spread_out">Honey Wheat</li>
+					<li class="spread_out">Coffee Roll</li>
 				</ul>
-				<p>$2.00</p>
-			<h2>Beverages</h2>
-				<ul>
-					<li>Water</li>
-					<li>Milk</li>
-					<li>Coffee</li>
-					<li>Coffee with Chocolate</li>
-					<li>Expresso</li>
+				<ul  class="no_bul">
+						<li id="p_right">(1) $1.05 / (13) $8.65</li>
+						<li class="invisible"> I know this</li>
+						<li class="invisible">  is hacky but </li>
+						<li class="invisible">  I couldnt find a way</li>
+						<li class="invisible">  to line up the price right</li>
 				</ul>
-				<ul>
-					<li>$1.05</li>
-					<li>$1.25(S)/$1.75(M)/$2.25(L)</li>
-					<li>$1.50(S)/$2.10(M)/$2.85(L)</li>
-					<li>$1.90(S)/$2.45(M)/$3.00(L)</li>
-					<li>$1.75(S)/$2.25(M)/$2.90(L)</li>
+				</span>
+				</div>
+				<h3 class="menu_Stuff">Fancy</h3>
+				<div id="fancy_Menu">
+				<span>
+				<ul class="no_bul">
+					<li class="spread_out">Bow Tie</li>
+					<li class="spread_out">Eclair</li>
+					<li class="spread_out">Apple Turnover</li>
+					<li class="spread_out">Fancy Coffee Roll</li>
+					<li class="spread_out">French Cruller</li>
 				</ul>
-		</section>
-			<div><p>Why did the donut go to the dentist?</p></div>
-			<div><p>...To get a filling!</p></div>
-	<section id="about" class="content section_titles"> 
-		<h2>Here's what others have to say about us:</h2>
-			<p>"Delicious donuts, affordably priced as well" - Jane A.</p>
-			<p>"Outstanding" - Markus P.</p>
-			<p>"Their french cruller is to die for.  Their entire menu is clearly make with love and care." - Michael J.</p>				
-			<p>"The baristas are clearly proponents of service with a smile.  Everyone was so friendly and helpful" - Anito ).</p>
-		
-			<h1>About Us</h1>
-			<p>Donut Delights was started in 1971 by Melvin Furballski, an immigrant baker from
-				the far east coast of Poland. Known far and wide for his delicate pastries, Melvin fled his homeland in search of a better life for his family. In 1970 he landed in New York City and by chance he found an open seat on a bus heading west. When an unexpected mechanical failure forced a three day delay in Champaign, Illinois, Furballski saw the need for a donut shop, so he decided to stay and make a new life for himself in Urbana, Illinois. With only one hundred dollars to his name, he found an abandoned breadshop and within two days he had one of a kind donuts flying off the racks faster than he could bake them and things have never slowed down. Now you can find that same great donut recipe plus dozens more still being made with the same love and care as when Donut Delights first opened. A bakery fire in the mid-1980s destroyed many of the shop's records...but NOT THE RECIPES. While many people might have viewed the fire as an excuse to quit, Melvin instead used it as an opportunity to reconfigure the interior design, allowing him to add the coffee roastery section as well. So when you visit, be prepared for the inviting mix of aromas from fresh-roasted coffffee beans and fresh-baked donuts: It's the closest thing to "Breakfast Heaven" anywhere in the C-U area!</p>
+				<ul class="no_bul">
+					<li id="price">$2.00</li>
+					<li class="invisible"> f</li>
+					<li class="invisible">f</li>
+				</ul>
+				</span>
+				</div>
+			<h2 class="sub_section">Beverages</h2>
+			<div id="border_1">
+			<span>
+				<ul class="no_bul">
+					<li class="spread_out">Water</li>
+					<li class="spread_out">Milk</li>
+					<li class="spread_out">Coffee</li>
+					<li class="spread_out">Coffee with Chocolate</li>
+					<li class="spread_out">Expresso</li>
+				</ul>
+				<ul id="far_right" class="no_bul">
+					<li class="spread_out">$1.05</li>
+					<li class="spread_out">$1.25(S)/$1.75(M)/$2.25(L)</li>
+					<li class="spread_out">$1.50(S)/$2.10(M)/$2.85(L)</li>
+					<li class="spread_out">$1.90(S)/$2.45(M)/$3.00(L)</li>
+					<li class="spread_out">$1.75(S)/$2.25(M)/$2.90(L)</li>
+				</ul>
+			</span>
+			</div>
 			</section>
+			<div id="joke_top"><p id="j1">Why did the donut go to the dentist?</p></div>
+			<div id="joke_bottom"><p id="j2">...To get a filling!</p></div>
+	
+		<div id="reverse_content">
+		<h2>Here's what others have to say about us:</h2>
+			<p><em>"Delicious donuts, affordably priced as well"</em> - Jane A.</p>
+			<p><em>"Outstanding"</em> - Markus P.</p>
+			<p><em>"Their french cruller is to die for.  Their entire menu is clearly make with love and care."</em> - Michael J.</p>				
+			<p><em>"The baristas are clearly proponents of service with a smile.  Everyone was so friendly and helpful"</em> - Anito ).</p>
+		</div>
+		
+			<h1 id="rAbout">About Us</h1>
+			<section id="about" class="content"> 
+			<img id="small_img" src="images/bakery.jpg" alt="Bakery">
+			<p>Donut Delights was started in 1971 by Melvin Furballski, an immigrant baker from
+				the far east coast of Poland. Known far and wide for his delicate pastries, Melvin fled his homeland in search of a better life for his family. 
+				In 1970 he landed in New York City and by chance he found an open seat on a bus heading west. 
+				When an unexpected mechanical failure forced a three day delay in Champaign, Illinois, 
+				Furballski saw the need for a donut shop, so he decided to stay and make a new life for himself in Urbana, Illinois. 
+				With only one hundred dollars to his name, he found an abandoned breadshop and within two days he had one of a kind 
+				donuts flying off the racks faster than he could bake them and things have never slowed down. 
+				Now you can find that same great donut recipe plus dozens more still being made with the same love and care as when Donut Delights first opened. 
+				A bakery fire in the mid-1980s destroyed many of the shop's records...but NOT THE RECIPES. 
+				While many people might have viewed the fire as an excuse to quit, Melvin instead used it as an opportunity to reconfigure the interior design, 
+				allowing him to add the coffee roastery section as well. 
+				So when you visit, be prepared for the inviting mix of aromas from fresh-roasted coffee beans and fresh-baked donuts: It's the closest thing
+				 to "Breakfast Heaven" anywhere in the C-U area!</p>
+		</section>
+		<div id="subscribe">
 		<h2>Subscribe to our newsletter for the latest on our seasonal offerings and special events:</h2>
-			<p>insert news letter form</p>
-		<section id="contact" class="content section_titles">
-		<h1>Contact Us</h1>
+		
+		<form method="POST" action="https://formspree.io/pmccusker1@stu.parkland.edu" >
+			<label><span>Name</span>
+			<input type="text" name="name"></label>
+			<label><span>Email</span>
+			<input type="email" name="_replyto"></label>
+			<input type="submit" value="Submit">
+		  </form> 
+			
+		</div>
+		
+		<h1 id="rContact">Contact Us</h1>
+		<section id="contact_us">
+			<h2>Hours</h2>
+			<span>
+			<ul class="no_bul">
+				<li>Monday</li>           
+				<li>Tuesday</li>  
+				<li>Wendesday</li> 
+				<li>Thursday</li>  
+				<li>Friday</li>  
+				<li>Satday</li> 
+				<li>Sunday</li> 
+			</ul>
+
+			<ul id="farRight" class="no_bul">
+					<li>	7:00a.m. - 8:30p.m.</li>
+					<li>	8:00a.m. - 8:00p.m.</li>
+					<li>	8:00a.m. - 8:00p.m.</li>
+					<li>	8:00a.m. - 8:00p.m.</li>
+					<li>	8:00a.m. - 8:00p.m.</li>
+					<li>	7:30a.m. - 6:30p.m.</li>
+					<li>	9:00a.m. - 5:00p.m.</li>
+			</ul>
+			</span>
+			
 			<ul>
 				<li>Donut Delights</li>
-				<li>@112 Main Street Urbana, Illinois 61801</li>
+				<li>112 Main Street Urbana, Illinois 61801</li>
 				<li>(217)-555-1234</li>
 			</ul>
-			<p>Insert Google Maps</p>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3051.312967146194!2d-88.2112278846133!3d40.11302837940164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880cd775694a86c9%3A0x81f98d94378e324f!2s112+W+Main+St%2C+Urbana%2C+IL+61801!5e0!3m2!1sen!2sus!4v1544395250640" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 		</section>
+		
 	</main>
 	
+
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="js/jquery.scrollTo.min.js"></script>
+	<script src="js/nav.js"></script>
+	<script src="css/slick/slick.min.js"></script>
+	
+	<script>
+	$(document).ready(function(){
+		$('.multiple-items').slick({
+			rows: 1,
+			slidesPerRow:7,
+			slidesToShow:7,
+			
+  		});
+	});
+	</script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-130696223-1"></script>
+	<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-130696223-1');
+</script>
+
 </body>
 </html>
