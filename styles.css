@@ -1,0 +1,424 @@
+html {
+  scroll-behavior: smooth;
+}
+nav ul {
+	z-index: 3000;
+	list-style-type: none;
+	margin: 0;
+	padding: 0 6%;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	overflow: hidden;
+	background-color: saddlebrown;
+	border-bottom: 3px solid black;
+}
+
+nav ul li {
+	
+	font-size: 24px;
+	display: inline;
+	font-weight: bold;
+	float: left;
+
+}
+
+nav ul li a {
+	display: block;
+	color: bisque;
+	text-align: center;
+	padding-top: 35px;
+	padding-bottom: 35px;
+	padding-right: 165px;
+	padding-left: 185px;
+	text-decoration: none;
+	border-left: 3px solid black;
+	
+	
+}
+
+nav ul li a:hover{
+	background-color: #567;
+}
+
+.content {
+	padding: 5%;
+	background-color: saddlebrown;
+	width: 80%;
+	margin-left: 5%;
+}
+
+#top{
+	padding: 5%;
+	
+}
+
+#topRight{
+	position: absolute;
+	right: 1px;
+	margin-top: 10px;
+}
+
+#facebook{
+	max-width:50px;
+	max-height:50px;
+}
+
+#instagram{
+	max-width:50px;
+	max-height:50px;
+}
+
+#twitter{
+	max-width:50px;
+	max-height:50px;
+}
+
+#small_img_left{
+	margin-bottom: 2%;
+	margin-left: 30px;
+	max-width: 350px;
+	max-height: 350px;
+	margin-top: 70px;
+}
+
+#small_img_right{
+
+	position: absolute;
+	right: 350px;
+	width: auto;
+	padding: 10px;
+	margin-top: 60px;
+	margin-bottom: 2%;
+}
+
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.sticky + .content {
+	padding-top: 60px;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+}
+
+body{
+	margin: 0;
+    display: block;
+	font-family: "Rockwell",sans-serif;
+	
+}
+
+main{
+	background-image: url('../images/wd_back.png');
+	/*background-color: #422b21;*/
+	
+}
+
+main h2 {
+	text-align: center;
+}
+
+section {
+  padding: 2rem;
+  margin: 0 0 2rem 0;
+}
+
+#rightbord{
+	border-right: 3px solid black;
+}
+
+#intro {
+	background-color: saddlebrown;
+	color: bisque;
+	font-style: italic;
+	font-size: 24px;
+	margin-left: 10%;
+	margin-right: 10%;
+	border-style: ridge;
+	border: 3px solid saddlebrown;
+}
+
+#gif {
+	margin-left: 40%;		
+
+}
+
+#vid{
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+.section_titles{
+	text-align: center;
+	font-size: 28px;
+	background-color: saddlebrown;
+	color: bisque;
+	
+}
+
+.sub_section{
+	font-size: 46px;
+	font-weight: bold;
+}
+.rcorners1 {
+    border-radius: 20px;
+    background: saddlebrown;
+    padding: 20px; 
+    width: 70%;
+    height: 150px; 
+}
+
+#menu_Content{
+	font-size: 24px;
+	border-radius: 20px;
+	color: bisque;
+    background: saddlebrown;
+	padding: 20px; 
+	margin-left: 12.5%;
+	margin-right: 12.5%;
+    width: 75%;
+    height: 2075px; 
+}
+
+#top_Sellers  {
+	border: 2px solid bisque;
+	text-align: center;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.no_bullets{
+	text-align: center;
+	list-style-type: none;
+	margin-bottom: 20px;
+	font-size: 20px;
+	font-style: italic;
+}
+
+#roucorners1 {
+	font-size: 24px;
+    border-radius: 25px;
+    background: saddlebrown;
+    padding: 10px; 
+	color:bisque;
+    width: 37%;
+    height: 33px; 
+}
+
+#menu {
+	text-align: center;
+	font-weight: bold;
+	font-size: 42px;
+    border-radius: 25px;
+    background: saddlebrown;
+	padding: 12px 10px 20px 10px; 
+	margin-left: 45%;
+	color:bisque;
+    width: 10%;
+	height: 35px;
+	
+}
+
+#reg_Menu{
+	border: 2px solid bisque;
+	font-size: 26px;
+
+}
+
+#fancy_Menu {
+	border: 2px solid bisque;
+	font-size: 26px;
+}
+
+.no_bul{
+	list-style-type: none;
+	display: inline-block;
+	font-weight: bold;
+	font-size: 26px;
+}
+
+.spread_out{
+	margin-bottom: 15px;
+}
+
+.invisible {
+	color: saddlebrown;
+}
+
+.menu_Stuff {
+	text-align: center;
+	font-size: 34px;
+	font-style: italic;
+}
+
+#top_border {
+	border-top: 6px solid bisque;
+}
+
+#p_right{
+	margin-left: 35%;
+	padding-top: 5%;
+	padding-bottom: 20px;
+	
+}
+
+#price {
+	margin-left: 75%;
+
+}
+
+#border_1{
+	border: 2px solid bisque;
+}
+
+
+#far_right {
+	margin-left: 25%;
+}
+
+#joke_top{
+	text-align: center;
+	margin-bottom: 40px;
+	font-weight: bold;
+	background-color: saddlebrown;
+	height: 90px;
+	width: 410px;
+	margin-left: 25%;
+	color: bisque;
+	border-radius: 25px;
+}
+
+#joke_bottom {
+	background-color: bisque;
+	height: 80px;
+	width: 400px;
+	margin-left: 37.5%;
+	color: saddlebrown;
+	border-radius: 25px;
+	margin-bottom: 40px;
+}
+
+#j1{
+	font-size: 32px;
+	padding-top: 10px;
+}
+
+#j2 {
+	padding-top:  10px;
+	font-size: 38px;
+	text-align: right;
+	margin-top: 15%;
+	margin-bottom: 20%;
+	margin-right: 50px;
+	font-style: italic;
+}
+
+#reverse_content {
+	border-radius: 20px;
+	color: saddlebrown;
+    background: bisque;
+	padding: 20px; 
+	margin-left: 11%;
+	margin-right: 4%;
+    width: 85%;
+}
+
+#reverse_content h2 {
+	font-size: 34px;
+}
+
+#reverse_content p {
+	font-size: 30px;
+}
+
+#about {
+	font-size: 34px;
+	border-radius: 20px;
+	color: bisque;
+    background: saddlebrown;
+	padding: 20px; 
+	margin-top: 30px;
+	margin-left: 4%;
+	margin-right: 11%;
+    width: 85%;
+    height: 650px; 
+}
+
+#rAbout {
+	font-size: 42px;
+	text-align: center;
+	border-radius: 25px;
+    background: saddlebrown;
+	padding: 12px 10px 20px 10px; 
+	margin-top: 50px;
+	margin-left: 45%;
+	color:bisque;
+    width: 11%;
+	height: 38px;
+
+}
+
+#subscribe {
+	border-radius: 20px;
+	color: saddlebrown;
+    background: bisque;
+	padding: 20px; 
+	margin-left: 11%;
+	margin-right: 4%;
+	margin-bottom: 20px;
+    width: 85%;
+}
+
+#rContact {
+	font-size: 42px;
+	text-align: center;
+	border-radius: 25px;
+    background: saddlebrown;
+	padding: 12px 10px 20px 10px; 
+	margin-top: 50px;
+	margin-left: 45%;
+	color:bisque;
+    width: 14%;
+	height: 38px;
+}
+
+#contact_us {
+	font-size: 34px;
+	border-radius: 20px;
+	color: bisque;
+    background: saddlebrown;
+	padding: 20px; 
+	margin-top: 30px;
+	margin-left: 4%;
+	margin-right: 11%;
+    width: 85%;
+    height: 780px; 
+}
+
+#contact_us ul {
+	list-style-type: none;
+}
+
+
+#farRight{
+	margin-left: 45%;
+}
+
+#small_img {
+	margin-top:20px;
+	max-height: 50%;
+	max-width: 50%;
+	float: right;
+}
+
+.disp{
+	display: inline-block;
+}
