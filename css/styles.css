@@ -2,6 +2,7 @@ html {
   scroll-behavior: smooth;
 }
 nav ul {
+	z-index: 3000;
 	list-style-type: none;
 	margin: 0;
 	padding: 0 6%;
@@ -141,7 +142,8 @@ section {
 	font-size: 24px;
 	margin-left: 10%;
 	margin-right: 10%;
-	border-style: ridge
+	border-style: ridge;
+	border: 3px solid saddlebrown;
 }
 
 #gif {
@@ -207,8 +209,8 @@ section {
     background: saddlebrown;
     padding: 10px; 
 	color:bisque;
-    width: 35%;
-    height: 30px; 
+    width: 37%;
+    height: 33px; 
 }
 
 #menu {
@@ -415,4 +417,8 @@ section {
 	max-height: 50%;
 	max-width: 50%;
 	float: right;
+}
+
+.disp{
+	display: inline-block;
 }
